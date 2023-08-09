@@ -1,2 +1,5 @@
 #Webstorm:
 - .idea/*
+
+#Node
+- node_modules/*
