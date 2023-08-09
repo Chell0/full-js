@@ -1,5 +1,61 @@
-#Webstorm:
-- .idea/*
+# Node.js
+node_modules/*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-#Node
-- node_modules/*
+# Dependency directories
+.pnp/*
+.pnp.js
+
+# React
+build/*
+dist/*
+.cache/*
+public/.DS_Store
+
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.log.*
+*.gcda
+*.gcno
+*.gcov
+
+# IDEs and Editors
+.idea/*
+.vscode/*
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store/*
+Thumbs.db
+
+# Misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Jest Coverage
+coverage/*
+
+# Jest Snapshots
+__snapshots__/*
+
+# Testing
+test
+tests
+
+# Storybook
+.storybook-out
+
+# Prettier
+prettier.config.js
