@@ -4,8 +4,8 @@
   "description": "* For Node and React",
   "main": "index.js",
   "scripts": {
-    "dev-server": "nodemon --exec babel-mode src/server/server.js --ignore dist/",
-    "dev-bundle": "webpack-wd",
+    "dev-server": "nodemon --exec babel-node src/server/server.js --ignore dist/",
+    "dev-bundle": "webpack -w",
     "test": "jest"
   },
   "repository": {
